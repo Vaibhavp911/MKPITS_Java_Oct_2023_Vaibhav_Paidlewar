@@ -1,0 +1,1 @@
+The UK/India relationship is mutually beneficial and wide ranging; covering- development, regional stability, trade and investment, climate change, counter terrorism and reform of the global international systems.
