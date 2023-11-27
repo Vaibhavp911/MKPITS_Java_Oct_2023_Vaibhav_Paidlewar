@@ -1,0 +1,1 @@
+British society is enriched by its strong, dynamic human ties to India.  India gets the second highest number of tourists from the UK. The UK’s largest visa operation worldwide is in India and processed in the region of half a million applications in 2011. Between 1.5 million and 2 million people of Indian origin live in the UK, the largest ethnic group.
