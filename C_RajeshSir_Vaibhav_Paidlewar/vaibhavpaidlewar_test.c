@@ -1,1 +1,0 @@
-We share the core values of democracy, pluralism and tolerance 😤
