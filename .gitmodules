@@ -7,3 +7,6 @@
 [submodule "MKPITS_Basic_C_Vaibhav_Paidlewar"]
 	path = MKPITS_Basic_C_Vaibhav_Paidlewar
 	url = https://github.com/Vaibhavp911/MKPITS_Basic_C_Vaibhav_Paidlewar.git
+[submodule "MKPITS_Basic-C_Vaibhav_Paidlewar"]
+	path = MKPITS_Basic-C_Vaibhav_Paidlewar
+	url = https://github.com/Vaibhavp911/MKPITS_Basic-C_Vaibhav_Paidlewar.git
