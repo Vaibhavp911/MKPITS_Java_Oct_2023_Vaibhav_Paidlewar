@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+The <optgroup> tag is used to group related options in a <select> element (drop-down list).
+
+If you have a long list of options, groups of related options are easier to handle for a user.
+
+disabled: If this Boolean attribute is set, none of the items in this option group is selectable.
+        Often browsers grey out such control and it won't receive any browsing
+         events, like mouse clicks or focus-related ones.
+-->
+     <form action="">
+        Name:<input type="text" name="name"><br><br>
+		Course:<select>
+			<optgroup label="Programming" disabled>
+			<option value="Java">Java Programming</option>
+			<option value="C">C Programming</option>
+			<option value="C#">C Sharp</option>
+			<option value="C++">C++ Programming</option>
+			</optgroup>
+			<optgroup label="Web Designing">
+			<option value="HTML">HTML</option>
+			<option value="CSS">CSS</option>
+			<option value="JavaScript">JS</option>
+			<option value="PHP">PHP</option>
+			</optgroup>
+		</select>
+		<br><br><input type="submit" value="Submit">
+     </form>
+</body>
+</html>

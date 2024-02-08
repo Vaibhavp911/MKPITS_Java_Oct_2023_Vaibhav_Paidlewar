@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 
+The sandbox attribute enables an extra set of restrictions for the content in the iframe.
+
+When the sandbox attribute is present, and it will:
+
+treat the content as being from a unique origin
+block form submission
+block script execution
+disable APIs
+prevent links from targeting other browsing contexts
+prevent content from using plugins (through <embed>, <object>, <applet>, or other)
+prevent the content to navigate its top-level browsing context
+block automatically triggered features (such as automatically playing a video or automatically focusing a form control)
+The value of the sandbox attribute can either be empty (then all restrictions are applied), or a space-separated list of pre-defined values that will REMOVE the particular restrictions.
+ -->
+<!-- sandbox - allowform >>  allows form submission -->
+<iframe src="index.html" width="500" height="200" sandbox=" allow-forms"></iframe><br>
+</body>
+</html>

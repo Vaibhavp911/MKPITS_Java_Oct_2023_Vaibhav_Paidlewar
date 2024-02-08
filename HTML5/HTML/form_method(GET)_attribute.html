@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--  
+The method attribute specifies how to send form-data
+(the form-data is sent to the page specified in the action attribute).
+
+The form-data can be sent as URL variables (with method="get")
+or as HTTP post transaction (with method="post").
+
+Notes on GET:
+
+Appends form-data into the URL in name/value pairs
+The length of a URL is limited (about 3000 characters)
+Never use GET to send sensitive data! (will be visible in the URL)
+Useful for form submissions where a user wants to bookmark the result
+GET is better for non-secure data, like query strings in Google
+ -->
+    <form method="get" autocomplete="on" action="https://www.google.com/" accept-charset="UTF-8">
+        Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"><br>
+        Password:   <input type="password" name="pwd" aria-valuemin="8" alt="Must contain at least eight characters." ><br>
+        Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email"><br><br>
+        City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="city" autocomplete="off"><br><br>
+        <!-- To make the submit button work we need to add the method attribute -->
+        <input type="submit" value="Submit">
+    </form>  
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 
+The action attribute specifies where to send the form-data when a form is submitted.
+
+Value	Description
+URL	    Where to send the form-data when the form is submitted.
+        
+        Possible values:
+        An absolute URL - points to another web site (like action="http://www.example.com/example.htm")
+        A relative URL - points to a file within a web site (like action="example.htm")
+ -->
+    <form action="https://www.google.com/" accept-charset="UTF-8">
+        Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"><br>
+        Password:   <input type="password" name="pwd" aria-valuemin="8" alt="Must contain at least eight characters." ><br><br>
+        <input type="submit" value="Submit">
+    </form> <br> <br>
+    <form accept-charset="Unicode">
+        Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"><br>
+        Password:   <input type="password" name="pwd" aria-valuemin="8" alt="Must contain at least eight characters." ><br><br>
+        <input type="submit" value="Submit">
+    </form>    
+</body>
+</html>

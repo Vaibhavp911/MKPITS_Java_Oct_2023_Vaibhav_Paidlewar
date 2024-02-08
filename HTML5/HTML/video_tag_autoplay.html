@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 
+The controls attribute adds video controls, like play, pause, and volume.
+
+It is a good idea to always include width and height attributes. If height and width are not set, the page might flicker while the video loads.
+
+The <source> element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.
+
+The text between the <video> and </video> tags will only be displayed in browsers that do not support the <video> element.
+ -->
+
+ <!-- HTML <video> Autoplay
+To start a video automatically, use the autoplay attribute: -->
+<video controls autoplay>
+    <source src="horse.ogg" type="audio/ogg">
+    <source src="/videos/videotest1.mp4" type="video/mp4">
+  Your browser does not support the audio element.
+  </video>
+<!-- Note: Chromium browsers do not allow autoplay in most cases. However, muted autoplay is always allowed. -->
+
+<!-- Add muted after autoplay to let your video start playing automatically (but muted): -->
+<br>
+<br>
+<br>
+<video controls autoplay muted>
+    <source src="horse.ogg" type="audio/ogg">
+    <source src="/videos/videotest1.mp4" type="video/mp4">
+  Your browser does not support the audio element.
+  </video>
+</body>
+</html>

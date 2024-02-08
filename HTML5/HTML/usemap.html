@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 
+The usemap attribute specifies an image (or an object) as an image map
+(an image map is an image with clickable areas).
+
+The usemap attribute is associated with a <map> element's name or id attribute,
+and creates a relationship between the <img> and the <map>.
+
+Note: The usemap attribute cannot be used if the <img> element is a descendant of an <a>
+    or <button> element
+ -->
+
+ <img src="/photos/youtube.jpg" width="145" height="126" alt="youtube" usemap="#youtube">
+
+<map name="youtube">
+  <area shape="rect" coords="0,0,82,126" href="index.html" alt="Sun">
+  <area shape="circle" coords="90,58,3" href="index.html" alt="Mercury">
+  <area shape="circle" coords="124,58,8" href="index.html" alt="Venus">
+</map>
+<br>
+<br>
+<img src="photos/logog.jpg" usemap="#imap">
+<map name="imap" id="#imap">
+	<area shape ="rect" coords="0,0,209,108" href="http://www.technocrats.com" target="_blank">
+	<area shape ="circle" coords="351,63,32" href="http://www.yahoo.com" target="_blank">
+</map>
+</body>
+</html>

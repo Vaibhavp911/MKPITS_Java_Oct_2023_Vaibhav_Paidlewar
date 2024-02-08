@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 
+Definition and Usage
+The <object> tag defines a container for an external resource.
+
+The external resource can be a web page, a picture, a media player, or a plug-in application.
+ -->
+<!-- 
+Attribute	Value	Description
+data->	URL	Specifies the URL of the resource to be used by the object
+form->	form_id	Specifies which form the object belongs to
+height->	pixels	Specifies the height of the object
+name->	name	Specifies a name for the object
+type->	media_type	Specifies the media type of data specified in the data attribute
+typemustmatch->	true/false	Specifies whether the type attribute and the actual
+                content of the resource must match to be displayed
+usemap->	#mapname	Specifies the name of a client-side image map to be used with the object
+width->	pixels	Specifies the width of the object
+ -->
+    <object data="index.html" width="500" height="200"></object>
+    <br>
+    <object data="/photos/dog.jpg" type="image/jpg" width="400" height = "400"></object>
+</body>
+</html>

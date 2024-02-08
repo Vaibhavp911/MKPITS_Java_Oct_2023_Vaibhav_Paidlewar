@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form enctype="multipart/form-data" >
+		<!-- 
+The formenctype attribute specifies how the form-data should be encoded
+ when submitting it to the server (only for forms with method="post")
+
+The formenctype attribute overrides the enctype attribute of the <form> element.
+
+Note: The formenctype attribute is used with type="submit" and type="image".
+         -->
+        Name: <input type="text" name="name"><br><br>
+        Password: <input type="password" name="pass"><br><br>
+        City: <input type="text" name="city"><br><br>
+        
+        Submit: <input type="submit" value="Submit" ><br><br>
+    
+        Submit_By_Admin: <input type="submit" value="Submit by Admin" formenctype="application/x-www-form-urlencoded" > 
+
+</form>
+</body>
+</html>

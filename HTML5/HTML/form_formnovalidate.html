@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+The formnovalidate attribute is a boolean attribute.
+
+When present, it specifies that the <input> element should not be validated when submitted.
+
+The formnovalidate attribute overrides the novalidate attribute of the <form> element.
+
+Note: The formnovalidate attribute can be used with type="submit".
+     -->
+     <form enctype="multipart/form-data" method="get" autocomplete="on" action="https://www.google.com/" accept-charset="UTF-8" novalidate>
+        Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"  id="name" required formnovalidate><br/><br/>
+        Password:   <input type="password" name="pwd" aria-valuemin="8" alt="Must contain at least eight characters." required><br>
+        Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email" required><br><br>
+        City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="city" autocomplete="off" required><br><br>
+        <!-- To make the submit button work we need to add the method attribute -->
+        <input type="submit" value="Submit">
+</body>
+</html>

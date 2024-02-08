@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+The accept attribute specifies a filter for what file types the user can
+pick from the file input dialog box.
+
+Note: The accept attribute can only be used with <input type="file">.
+
+Tip: Do not use this attribute as a validation tool. File uploads should be
+validated on the server.
+
+Syntax
+<input accept="file_extension|audio/*|video/*|image/*|media_type">
+
+Value	            Description
+file_extension	    Specify the file extension(s) (e.g: .gif, .jpg, .png, .doc)
+                    the user can pick from
+audio/*	            The user can pick all sound files
+video/*	            The user can pick all video files
+image/*	            The user can pick all image files
+media_type	        A valid media type, with no parameters.
+                    Look at IANA Media Types for a complete list of standard media types
+     -->
+    Name: <input type="text" name="name"><br><br>
+    Password: <input type="password" name="pass"><br><br>
+    City: <input type="text" name="city"><br><br>
+    Upload File: <input type="file" name="file" accept="image/*"><br><br>
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+    Name: <input type="text" name="name"><br><br>
+    Password: <input type="password" name="pass"><br><br>
+    City: <input type="text" name="city"><br><br>
+    Upload File: <input type="file" name="file" accept="audio/*"><br><br>
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+    Name: <input type="text" name="name"><br><br>
+    Password: <input type="password" name="pass"><br><br>
+    City: <input type="text" name="city"><br><br>
+    Upload File: <input type="file" name="file" accept="audio/*"><br><br>
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+</body>
+</html>

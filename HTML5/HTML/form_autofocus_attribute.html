@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+The autofocus attribute is a boolean attribute.
+
+When present, it specifies that an <input> element should automatically
+get focus when the page loads. It cannot be used if the user interacts with the webpage before it finishes loading. 
+     -->
+    <form autocomplete="on" action="https://www.google.com/" accept-charset="UTF-8">
+        Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" autofocus><br> <br>
+        Password:   <input type="password" name="pwd" aria-valuemin="8" alt="Must contain at least eight characters." autofocus><br> <br>
+        Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email" autofocus><br><br>
+        City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="city" autocomplete="off" autofocus><br><br>
+        <!-- To make the submit button work we need to add the method attribute -->
+        <input type="submit" value="Submit"> 
+    </form> 
+</body>
+</html>
