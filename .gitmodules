@@ -13,3 +13,6 @@
 [submodule "MKPITS_CSS3_Vaibhav_Paidlewar"]
 	path = MKPITS_CSS3_Vaibhav_Paidlewar
 	url = https://github.com/Vaibhavp911/MKPITS_CSS3_Vaibhav_Paidlewar.git
+[submodule "MKPITS_SQL_Vaibhav_Paidlewar"]
+	path = MKPITS_SQL_Vaibhav_Paidlewar
+	url = https://github.com/Vaibhavp911/MKPITS_SQL_Vaibhav_Paidlewar.git
