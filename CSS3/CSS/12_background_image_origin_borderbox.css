@@ -1,0 +1,7 @@
+#para3{
+    border: 10px  dashed #000000;
+      padding: 25px;
+    background: url(/Images/cat.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+  }
