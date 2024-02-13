@@ -1,0 +1,39 @@
+.a{
+    vertical-align: auto;
+}
+
+.b{
+    vertical-align: baseline;
+}
+
+.c{
+    vertical-align: bottom;
+}
+
+.d{
+    vertical-align: middle;
+}
+
+.e{
+    vertical-align: sub;
+}
+
+.f{
+    vertical-align: super;
+}
+
+.g{
+    vertical-align: text-bottom;
+}
+
+.h{
+    vertical-align: text-top;
+}
+
+.i{
+    vertical-align: top;
+}
+
+.j{
+    vertical-align: -webkit-baseline-middle;
+}
