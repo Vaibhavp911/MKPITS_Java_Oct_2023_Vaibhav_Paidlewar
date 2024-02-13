@@ -1,0 +1,15 @@
+.bold{
+    font-weight: bold;
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
+.lighter{
+    font-weight: lighter;
+}
+
+.custom{
+    font-weight: 550;
+}
