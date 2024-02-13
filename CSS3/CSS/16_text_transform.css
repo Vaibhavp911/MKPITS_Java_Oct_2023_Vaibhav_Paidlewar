@@ -1,0 +1,15 @@
+.para1{
+    text-transform: capitalize;
+}
+
+.para2{
+    text-transform: lowercase;
+}
+
+.para3{
+    text-transform: uppercase;
+}
+
+.para4{
+    text-transform: none;
+}
