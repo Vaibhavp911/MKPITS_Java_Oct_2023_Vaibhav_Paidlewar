@@ -1,0 +1,39 @@
+.a{
+    /* normal - Sequences of whitespace will collapse into a single whitespace.
+    Text will wrap when necessary. 
+ */
+ white-space: normal;
+}
+
+.b{
+/* 
+pre - Whitespace is preserved by the browser. 
+Text will only wrap on line breaks. It is just like the <pre> tag in HTML
+ */
+ white-space: pre;
+}
+
+.c{
+/* 
+nowrap - Sequences of whitespace will collapse into a single whitespace.
+Text will never wrap to the next line. The text continues on the same line until a <br> tag is encountered
+ */
+ white-space:  nowrap;
+}
+
+.d{
+/* 
+pre-line - Sequences of whitespace will collapse into a single whitespace.
+Text will wrap when necessary, and on line breaks
+*/
+white-space: pre-line;
+}
+
+.e{
+    /* 
+pre-wrap	 - Whitespace is preserved by the browser. 
+Text will wrap when necessary, and on line breaks
+    */
+    white-space:  pre-wrap;
+}
+
