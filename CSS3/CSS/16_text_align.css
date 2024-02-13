@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+
+#p1{
+    text-align: left;
+}
+
+#p2{
+    text-align: right;
+}
+
+#p3{
+    text-align: start;
+}
+
+#p4{
+    text-align: end;
+}
+
+#p5{
+    text-align: start;
+}
+
+#p6{
+    text-align: justify;
+}
+
