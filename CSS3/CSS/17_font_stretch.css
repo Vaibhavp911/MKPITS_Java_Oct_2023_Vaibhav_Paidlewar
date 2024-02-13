@@ -1,0 +1,39 @@
+.wider{
+    font-stretch: wider;
+}
+
+.narrower{
+    font-stretch: narrower;
+}
+
+.ultracondensed{
+    font-stretch: ultra-condensed;
+}
+
+.extracondensed{
+    font-stretch: extra-condensed;
+}
+
+.condensed{
+    font-stretch: condensed;
+}
+
+.semicondensed{
+    font-stretch: semi-condensed;
+}
+
+.semiexpanded{
+    font-stretch: semi-expanded;
+}
+
+.expanded{
+    font-stretch: expanded;
+}
+
+.extraexpanded{
+    font-stretch: extra-expanded;
+}
+
+.ultraexpanded{
+    font-stretch: ultra-expanded;
+}
