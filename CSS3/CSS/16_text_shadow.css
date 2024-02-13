@@ -1,0 +1,11 @@
+/*
+text-shadow: h-shadow v-shadow blur-radius color
+  h1{text-shadow: 2px 2px 5px red;}
+ */
+#para1{
+    text-shadow: 5px 3px 6px rgb(185, 119, 252)
+}
+
+#para2{
+    text-shadow: 2px 4px 3px rgb(162, 240, 44)
+}
