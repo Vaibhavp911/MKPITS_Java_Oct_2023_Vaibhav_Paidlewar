@@ -1,0 +1,7 @@
+p{
+    word-break: break-all;
+}
+
+.pp{
+    word-break: keep-all;
+}
