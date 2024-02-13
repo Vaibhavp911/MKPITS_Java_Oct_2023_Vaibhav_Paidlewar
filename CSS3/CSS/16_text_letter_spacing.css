@@ -1,0 +1,24 @@
+#p1{
+    /* spacing in px */
+    letter-spacing: 4px;
+}
+
+#p2{
+/* spacing in inch */
+letter-spacing: 4in;
+}
+
+#p3{
+/* spacing in pt */
+letter-spacing: 4pt;
+}
+
+#p4{
+/* spacing in cm */
+letter-spacing: 5cm;
+}
+
+#p5{
+/* spacing in em */
+letter-spacing: 6em;
+}
