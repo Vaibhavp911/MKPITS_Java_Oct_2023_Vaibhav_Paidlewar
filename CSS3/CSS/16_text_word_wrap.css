@@ -1,0 +1,7 @@
+p{
+    word-wrap: normal;
+}
+
+.pp{
+    word-wrap: break-word;
+}
