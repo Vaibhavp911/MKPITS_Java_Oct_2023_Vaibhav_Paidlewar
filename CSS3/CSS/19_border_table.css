@@ -1,0 +1,53 @@
+.name{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(214, 235, 57);
+}
+
+.Roll{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(32, 246, 185);
+}
+
+.Gender{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(33, 243, 61);
+}
+
+.n1{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(255, 98, 6);
+}
+
+.r1{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(253, 166, 16);
+}
+
+.g1{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(33, 59, 255);
+}
+
+.n2{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(228, 10, 225);
+}
+
+.r2{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(39, 64, 8);
+}
+
+.g2{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(33, 222, 243);
+}
