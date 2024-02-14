@@ -1,0 +1,24 @@
+.para1{
+    border-style: solid;
+    border-width: thin;
+}
+.para2{
+    border-style: solid;
+    border-width: 10px;
+}
+
+.para3{
+    border-style: solid;
+    border-width: thick;
+}
+
+.para4{
+    border-style: solid;
+    border-width: medium;
+}
+
+.para5{
+    border-style: dashed;
+    border-width: thin medium    10px   thick;
+                 /*top   right   botttom  left */
+}
