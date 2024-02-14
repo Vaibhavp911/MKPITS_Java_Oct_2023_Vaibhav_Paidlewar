@@ -1,0 +1,76 @@
+.name{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(214, 235, 57);
+    border-spacing: 5px;
+    border-collapse: collapse;
+}
+
+.Roll{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(32, 246, 185);
+    border-spacing: 5px;
+    border-collapse: collapse;
+}
+
+.Gender{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(33, 243, 61);
+    border-spacing: 5px;
+    border-collapse: collapse;
+}
+
+.n1{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(255, 98, 6);
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.r1{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(253, 166, 16);
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.g1{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(33, 59, 255);
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.n2{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(228, 10, 225);
+    border-spacing: 15px;
+    border-collapse: collapse;
+}
+
+.r2{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(39, 64, 8);
+    border-spacing: 15px;
+    border-collapse: collapse;
+}
+
+.g2{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(33, 222, 243);
+    border-spacing: 15px;
+    border-collapse: collapse;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
