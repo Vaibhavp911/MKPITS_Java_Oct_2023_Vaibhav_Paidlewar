@@ -1,0 +1,15 @@
+.para4{
+    border-style: solid;
+    border-color: aqua;
+}
+
+.para5{
+    border-style: solid;
+    border-color: brown;
+}
+
+.para6{
+    border-style: solid;
+    border-color: cadetblue  brown aqua whitesmoke;
+                /* top          right   bottom  left */
+}
