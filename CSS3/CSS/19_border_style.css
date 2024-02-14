@@ -1,0 +1,35 @@
+.para1{
+    border: dotted;
+}
+
+.para2{
+    border: solid;
+}
+
+.para3{
+    border: dashed;
+}
+
+.para4{
+    border: solid;
+}
+
+.para5{
+    border: double;
+}
+
+.para6{
+    border: groove
+}
+
+.para7{
+    border: ridge;
+}
+
+.para8{
+    border: inset
+}
+
+.para9{
+    border: outset;
+}
