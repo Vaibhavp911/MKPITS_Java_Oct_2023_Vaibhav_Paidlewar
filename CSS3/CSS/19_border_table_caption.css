@@ -1,0 +1,6 @@
+table, th, td{ 
+    border: solid blue;
+    }
+caption{
+    caption-side: bottom;
+}
