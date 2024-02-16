@@ -1,0 +1,35 @@
+.d1{
+    color: chartreuse;
+    border: solid 20px;
+    border-color: rgb(220, 202, 66);
+}
+
+.d2{
+    color: chartreuse;
+    border: solid 10px;
+    border-color: rgb(239, 49, 24);
+}
+span{
+    color: violet;
+    border: solid 5px;
+    border-color: rgb(0, 191, 255);
+}
+
+.d5{
+    display: flex;
+}
+.d4 >img{
+    border: solid;
+    border-color: blue;
+    /* width: 50%;
+    height:97.3%; */
+}
+
+/* .d4{
+    width: 50%;
+} */
+
+.d3{
+    border: solid;
+    border-color: rgb(19, 132, 87);
+}

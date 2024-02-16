@@ -1,0 +1,26 @@
+.x{
+        background-color: aqua;
+        height: 200px;
+        width: 300px;
+        border: 1px dashed;
+        overflow-x:scroll;
+        overflow-y: hidden;
+}
+
+.y{
+    background-color: aqua;
+    height: 250px;
+    width: 250px;
+    border: 1px dashed;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.xy{
+    background-color: aqua;
+    height: 400px;
+    width: 300px;
+    border: 1px dashed;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}

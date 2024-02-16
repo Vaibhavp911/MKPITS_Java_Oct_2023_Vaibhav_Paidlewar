@@ -1,0 +1,41 @@
+.para1{
+    float: left;
+}
+
+.para2{
+    float: right;
+}
+
+.para3{
+    float: inherit;
+}
+
+.para4{
+    float: none;
+}
+
+div{
+    float: left;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.d1{
+    background-color: brown;
+}
+
+.d2{
+    background-color: yellow;
+}
+
+.clearfix{
+    overflow: auto;
+    border: solid;
+    border-color: aqua;
+    background-color: beige;
+}
+.para5{
+    float: right;
+    background-color: cadetblue;
+}
+

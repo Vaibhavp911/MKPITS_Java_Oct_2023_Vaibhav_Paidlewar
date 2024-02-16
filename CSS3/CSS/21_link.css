@@ -1,0 +1,19 @@
+a.link{
+    /* a:link - a normal, unvisited link */
+    color: chartreuse;
+}
+
+a.visited {
+    /* a:visited - a link the user has visited */
+    color: cadetblue;
+}
+
+a.hover{
+    /* a:hover - a link when the user mouse over it */
+    color: deeppink;
+}
+
+a.active{
+    /* a:active - a link the moment it is clicked */
+    color: gold;
+}
