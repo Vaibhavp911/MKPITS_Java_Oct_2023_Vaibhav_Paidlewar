@@ -1,0 +1,6 @@
+table, th, td, tr {
+    border-color: aqua;
+    border-style: dashed;
+    empty-cells: hide;
+}
+

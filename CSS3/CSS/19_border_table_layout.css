@@ -1,0 +1,10 @@
+.t1{
+    table-layout: fixed;
+}
+
+.t2{
+    table-layout: auto;
+}
+caption{
+    caption-side: bottom;
+}

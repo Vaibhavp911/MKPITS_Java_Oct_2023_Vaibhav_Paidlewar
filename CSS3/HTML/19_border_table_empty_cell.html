@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.vaibhavp.org</title>
+    <link rel="stylesheet" href="/CSS/19_border_table_empty_cell.css">
+</head>
+<body>
+    <!-- 
+This property is used to set whether or not to display borders and background
+on empty cells in a table.  The value of this property determines how the border
+and background colors are displayed on an empty cell:
+     - "hide": Hides both the border and background color on empty cells.
+              This means that no border or background will be shown for these cells.
+     - "show": Shows both the border and background color on empty cells.
+              This means that a border and background color will be shown for these cells.
+              - "collapse": Collapses the border on empty cells.
+            If two adjacent cells have the same border style, then they will be merged into one cell with that
+It will work only if the border-collapse is set to separate.
+We can set this property to show (default) or hide
+     -->
+    <table>
+        <caption>student details</caption>
+        <th >Name</th>
+        <th >Roll No.</th>
+        <th >Gender</th>
+
+        <tr>
+            <td >Vaibhav Paidlewar</td>
+            <td ></td>
+            <td >Male</td>
+        </tr>
+
+        <tr>
+            <td >Pranav Armarkar</td>
+            <td >456835</td>
+            <td ></td>
+        </tr>
+    </table>
+</body>
+</html>
