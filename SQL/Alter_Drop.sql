@@ -1,0 +1,1 @@
+alter table batchname drop column mobileNo;
