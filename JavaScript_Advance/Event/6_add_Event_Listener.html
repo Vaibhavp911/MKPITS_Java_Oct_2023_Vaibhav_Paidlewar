@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Add Event Listener</h1>
+    <button id="mybtn1">Click Me!</button>
+
+    <h1>Add Event Listener</h1>
+    <button id="mybtn2">Click Me!</button>
+    <script>
+        let btn = document.getElementById("mybtn1");
+        btn.addEventListener('click', function(){alert("Button Clicked using object calling");});
+
+        show = () => {
+            alert("button Clicked using function show1()");
+        }
+        let btn1 = document.getElementById("mybtn2");
+        btn1.addEventListener("click", show)
+        </script>
+</body>
+</html>
