@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center; margin-top: 200px;">Cookies</h1>
+
+    <form action="" name="myform" method="post">
+        Name : <input style ="text-align: center; margin-top: 20px; margin-left: 100px;" type="text" id="name" name="name"><br><br>
+        Email: <input style=" text-align: center; margin-top: 0px; margin-left: 100px;" type="text" id="name" name="email"><br><br>
+        Password: <input style="text-align: center; margin-top: 0px; margin-left: 100px;"  type="password" id="pass" name="pass"><br><br>
+
+        <input type="button" value="Set Cookies" name="set" onclick="setCookie()">
+        <input type="button" value="Get Cookies" name="set" onclick="getCookie()">
+    </form>
+
+    <script>
+        let setCookie = () => {
+            // get the values from the form
+            document.cookie = "name=name" +document.myform.name.value + ";max-age =" + 60*60*24*2;
+            document.cookie = "name=email" + document.myform.email.value + ";max-age =" + 60*60*24*2;
+            document.cookie = "name=pass" + document.myform.pass.value + "; max-age = "+ 60*60*24*2
+        }
+
+        let getCookie = () => {
+            let cookiesArr = document.cookie.split(";");
+            for (let index = 0; index < cookiesArr.length; index++) {
+                let valueArr = cookiesArr[index].split("=");
+
+                if (valueArr[0].trim() == 'name') {
+                    document.myform.name.value = valueArr[1];
+                }
+                else if (valueArr[0].trim() == 'email') {
+                    document.myform.name.value = valueArr[1];
+                }
+                else if (valueArr[0].trim() == 'pass') {
+                    document.myform.name.value = valueArr[1];
+                }
+                
+            }
+        }
+    </script>
+</body>
+</html>

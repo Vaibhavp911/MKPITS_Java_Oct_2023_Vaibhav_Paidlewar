@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" name="myform" id="myformid">
+		Username: <input type="text" name="m_username_field" id="username_id"> <br><br> 
+		Password: <input type="password" name="m_password_field" id="password_id"><br><br>
+		<input type="submit" name="m_sbtn" value="Submit">
+	</form>
+	<hr>
+	<hr>
+	<form action="" name="yourform" id="yourformid">
+		Username: <input type="text" name="y_username_field"> <br> <br> 
+		Password: <input type="password" name="y_password_field"><br><br>
+		<input type="submit" name="y_sbtn" value="Submit">
+	</form>
+
+<script>
+    // with getElementById
+    var user1 = document.getElementById("username_id");
+    console.log(user1.type);
+    console.log(user1.name);
+    console.log(user1.id);
+
+    // with element index no.
+
+    var  user2 = document.myform.elements[2];
+    console.log(user2);
+    console.log(user2.name);
+    console.log(user2.id);
+    console.log(user2.type);
+
+    //  with element ['name_attribute_value']
+    var user3 = document.myform.elements['m_username_feild'];
+    console.log(usrname);
+	console.log(usrname.name);
+	console.log(usrname.type);
+	console.log(usrname.id);
+	
+		/*
+				// With Form_Name and Name_Attribute_Value OR
+				// With Form_Name and ID_Attribute_Value
+				var usrname = document.myform.username_id;
+				console.log(usrname);
+				console.log(usrname.name);
+				console.log(usrname.type);
+				console.log(usrname.id);
+		*/
+		// document.myform.username_id.value = 'Rahul';
+</script>
+</body>
+</html>

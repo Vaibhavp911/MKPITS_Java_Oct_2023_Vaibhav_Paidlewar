@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" name="myform" id="myformid">
+        Username: <input type="text" name="m_username_feild" id="username_id"> <br> <br>
+        Password: <input type="password" name="m_passwrod_field" id="password_id"><br><br>
+        <input type="button" name="m_sbtn" value="Reset" onclick="resetForm()">
+    </form>
+    <script>
+        var myform = document.myform;
+        console.dir(myform);
+        console.log(myform.length);
+        console.log(myform.elements[2]);
+        console.log(myform.method);
+        console.log(myform.action);
+
+        function resetForm(){
+            myform.reset();
+        }
+    </script>
+</body>
+</html>
