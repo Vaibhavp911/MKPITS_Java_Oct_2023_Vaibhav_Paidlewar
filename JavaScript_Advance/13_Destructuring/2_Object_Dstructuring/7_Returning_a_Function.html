@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let details = {
+            fName : "vaibhav",
+        mName : "sanjay",
+        lName: "Paidlewar",
+        city: "Nagpur"
+        };
+
+        let show = (z) => {
+            return z;
+        }
+
+        // destructuring
+        // let x = show(details);
+        // let {fName, mName, lName,city} = x;
+
+        let {Name, mName, lName,city} = show(details);
+        console.log(fName);
+        console.log(mName);
+        console.log(lName);
+        console.log(city);
+    </script>
+</body>
+</html>

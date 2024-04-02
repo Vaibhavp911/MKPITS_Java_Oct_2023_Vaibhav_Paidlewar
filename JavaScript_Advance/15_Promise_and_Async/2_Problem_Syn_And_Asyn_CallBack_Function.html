@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // problem with syn
+    // console.log("Start");
+    // let getName = (name) => {
+    //     setTimeout(() => {
+    //         console.log("Inside setTimeOut");
+    //         return name
+    //     }, 4000);
+    // }
+
+    // const nm = getName('Sonam');
+    // console.log(nm);
+    // console.log("End");
+
+    // solve above problem with call back
+    // console.log("Start");
+    // let getName = (name, callback) => {
+    //     setTimeout(() => {
+    //         console.log("Inside setTimeOut");
+    //         callback(name);
+    //     }, 6000);
+    // }
+
+    // const nm = getName('Sonam', (nm) => { console.log(nm) })
+    // console.log("End");
+
+    // call back hell
+    console.log("Start");
+    let getName = (name, callback) => {
+        setTimeout(() => {
+            console.log("Inside Name setTimeout");
+            callback(name);
+        }, 3000);
+    }
+
+    let getHobbies = (name, callback) => {
+        setTimeout(() => {
+            console.log("Inside Hobbies setTimeOut");
+            callback(['cricket', 'reading', 'Dancing']);
+        }, 2000);
+    }
+
+    const nm = getName('sonam', (nm) => { console.log(nm); getHobbies(nm, hobby => {console.log(hobby)})})
+    console.log("end");
+     </script>
+</body>
+</html>

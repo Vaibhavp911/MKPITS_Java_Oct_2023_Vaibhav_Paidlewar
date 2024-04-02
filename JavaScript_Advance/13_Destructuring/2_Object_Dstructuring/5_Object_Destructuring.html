@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let {a, b = 10} = {a:99};
+        // b has default value 10
+        console.log(a);
+        console.log(b);
+
+        // updating values
+        let {c=54,d=34,e} = {c : 44, e : 93};
+        console.log(c);
+        console.log(d);
+        console.log(e);
+    </script>
+</body>
+</html>

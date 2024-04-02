@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // basic ex 1
+    const promiseObj1 = new Promise((resolve, reject) => {
+        let req = true
+        if (req == true) {
+            resolve ("Request Success");
+        } else {
+            reject("Request Rejected");
+        }
+    });
+
+    promiseObj1.then(
+        (value) => { console.log(value); },
+        (error) => { console.log(error); },
+    );
+
+    // basic ex 2
+    const promiseObj2 = new Promise((resolve, reject) => {
+        let req = true 
+        if (req == true) {
+            resolve("Request Success");
+        } else {
+            reject("Request Rejected");
+        }
+    }).then (
+        (value) => { console.log(value); },
+        (error) => { console.log(error); },
+    );
+</script>
+</body>
+</html>
