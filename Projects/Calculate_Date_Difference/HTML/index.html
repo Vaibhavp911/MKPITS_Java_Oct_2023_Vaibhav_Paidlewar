@@ -11,23 +11,29 @@
     <div id="div0">
 
         <div id="div1">
-            <h2 style="color:green">Calculate Date Difference</h2>
+            <h2 style="color:#272343;">Calculate Date Difference</h2>
         </div>
         <br>
     
         <div id="div2">
             <form id="formdate" action="">
                 <h4 id="h41">Date 1: <input type="date" id="Test_Date1"></h4>
-                <input type="button" value="Reset" id="reset_date1">
+                <div id="reset_date1">
+                <input type="button" value="Reset" >
+                </div>
                 <h4 id="h42">Date 2: <input type="date" id="Test_Date2"></h4>
-                <input type="button" value="Reset" id="reset_date2">
+                <div id="reset_date2">
+                    <input type="button" value="Reset" >
+                </div>
                 <br>
                 <div id="div2checkbox">
-                <input type="checkbox" id="exsat1">  Exclude Saturdays?
-                <br>
-                <input type="checkbox" id="exsun1">  Exclude Sundays?
-                <br>
-                <input type="submit" value="Calculate">
+                    <div id="chckbox">
+                        <input type="checkbox" id="exsat1">  Exclude Saturdays?
+                        <br>
+                        <input type="checkbox" id="exsun1">  Exclude Sundays?
+                        <br>
+                    </div>
+                <input type="submit" value="Calculate" id="calculatebtn">
                 </div>
             </form>
         </div>

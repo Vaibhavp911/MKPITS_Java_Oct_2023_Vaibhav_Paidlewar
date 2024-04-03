@@ -4,8 +4,11 @@
 
 #div0{
     border-style: solid;
-    background-color: rgba(184, 185, 186, 0.558);
+    background-color: #e3f6f5;
     border-radius: 15px;
+    position: relative;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 #div1{
     align-content: center;
@@ -23,17 +26,37 @@
 }
 #div2{
     align-items: center;
-    margin-left: 0%;
+    margin-left: 34%;
     width: 40%;
     border-style: solid;
+    background-color: #bae8e8;
 }
 
 #checkbox{
     align-items: center;
+    margin-left: 40%;
+}
+#chckbox{
+    background-color: #bae8e8;
+    align-items: center;
+    margin-left: 30%;
 }
 
 #output{
     align-items: center;
     margin-left: 43%;
     width: 50%;
+}
+
+#reset_date2{
+    align-items: center;
+    margin-left: 50%;
+}
+#reset_date1{
+    align-items: center;
+    margin-left: 50%;
+}
+#calculatebtn{
+    align-items: center;
+    margin-left: 170px;
 }
