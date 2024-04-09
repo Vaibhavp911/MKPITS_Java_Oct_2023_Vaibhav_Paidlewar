@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Student Confirm</title>
+<title>Insert title here</title>
 </head>
 <body>
-The Student is Register : ${param.fName}  ${param.lName} 
-<form action=""></form>
+The Student is Register : ${param.fName}  ${param.lName} ${param.country}
 </body>
 </html>

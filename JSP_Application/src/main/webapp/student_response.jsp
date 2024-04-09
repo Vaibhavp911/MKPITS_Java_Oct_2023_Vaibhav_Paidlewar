@@ -8,6 +8,5 @@
 </head>
 <body>
 The Student is Register : ${param.fName}  ${param.lName} 
-<form action=""></form>
 </body>
 </html>
