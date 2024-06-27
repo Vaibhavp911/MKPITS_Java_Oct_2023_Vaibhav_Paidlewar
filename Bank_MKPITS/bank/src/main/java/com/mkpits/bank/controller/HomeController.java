@@ -28,6 +28,6 @@ public class HomeController {
 
     @GetMapping("/loginregister")
     public String loginRegister() {
-        return "login-register";
+        return "loginregister";
     }
 }
